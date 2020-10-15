@@ -1,0 +1,33 @@
+body
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.contenedor
+{
+    display: flex;
+    flex-direction: column;
+}
+body div div{
+    margin-bottom: 10px;
+}
+#canvas{
+    margin-left: 5px;
+    border: 1px solid black;
+    width: 70%;
+    height: 60%;
+}
+#miTriangulo, #miCuadrado, #miRectangulo, #miCirculo{
+    display: flex;
+    flex-direction: column;
+}
+#miCuadrado, #miRectangulo, #miCirculo{
+    display: none;
+}
+input[type=text]{
+    width: 50%;
+    align-self: center;
+}
